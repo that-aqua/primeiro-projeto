@@ -1,3 +1,24 @@
-#Título {
-    color: blueviolet;
+.header {
+    background-color: darkslategray;
+    padding: 1%;
+    font-family: Calibri;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titulo {
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.logo  {
+    width: 10%;
+    padding-right: 20px;
+}
+
+.aceitaspix {
+    width: 30%;
 }
