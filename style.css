@@ -1,24 +1,97 @@
-.header {
+header {
     background-color: darkslategray;
-    padding: 1%;
-    font-family: Calibri;
-    font-weight: bold;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-
+    padding: 20px;
 }
 
-.titulo {
-    padding-left: 20px;
-    padding-top: 25px;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .logo  {
     width: 10%;
-    padding-right: 20px;
+    padding-left: 20px;
+}
+
+nav{
+    position:absolute;
+    top: 25px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 50px;
+}
+
+nav a {  
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+.fundo{
+    background-color: #d8f3dc;
+}
+
+.corpo {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.main {
+    padding: 5% 5%;
+    text-align: center;
+    font-family: arial;
+    width: 50%;
 }
 
 .aceitaspix {
     width: 30%;
+    padding-bottom: 1%;
+}
+
+.contato {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    text-align: center;
+    font-family: arial;
+}
+
+.cachorro {
+    padding: 2% 10%;
+    text-align: center;
+    font-family: arial;
+}
+
+.advertencia {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: darkslategray;
+}
+
+.imgcachorro {
+    width: 45%;
+    padding: 10px 0px;
+}
+
+.footer {
+    background-color: darkslategray;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    width: 10%;
 }
